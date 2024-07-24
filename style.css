@@ -8,28 +8,28 @@ html,
         background-color: #131327;
       }
 
-      div {
-          position: absolute;
-          top: 18%;
+      div.LogoSize {
+        position: absolute;
+        top: 18%;
       }
 
       body {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
       }
 
       .logo {
         width: 100%;
-        max-width: 58vh;
-        margin: 0 auto;
+        /* max-width: 58vh; */
+        /* margin: 0 auto; */
       }
 
       body {
         margin: 0;
-        color: #333;
-        font-family: sans-serif;
+        color: #ffffff;
+        font-family: CarterOne;
         font-size: 100%;
       }
       
@@ -52,6 +52,7 @@ html,
         height: auto;
         width: auto;
       }
+
       ul.social-set li {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -78,4 +79,54 @@ html,
         border-radius: 8px;
         background: rgb(255, 255, 255);
         color: #131327;
+      }
+
+      .flex-grid {
+        display: flex;
+        font-size: 125%;
+        max-width: 58vh;
+        margin: 0 auto;
+        flex-direction: row;
+        justify-content: space-between;
+
+      }
+      
+      .center {
+        justify-content: center;
+        font-size: 200%;
+      }
+
+      @media (max-width: 400px) {
+        .flex-grid {
+          display: block;
+        }
+      }
+
+      @font-face {
+        font-family: 'Amaranth';
+        src: url('./Fonts/Amaranth/Amaranth-Regular.ttf');
+      }
+
+      @font-face {
+        font-family: 'Amaranth-Bold';
+        src: url('./Fonts/Amaranth/Amaranth-Bold.ttf');
+      }
+
+      @font-face {
+        font-family: 'Amaranth-BoldItalic';
+        src: url('./Fonts/Amaranth/Amaranth-BoldItalic.ttf');
+      }
+
+      @font-face {
+        font-family: 'Amaranth-Italic';
+        src: url('./Fonts/Amaranth/Amaranth-Italic.ttf');
+      }
+
+      @font-face {
+        font-family: 'CarterOne';
+        src: url('./Fonts/Carter_One/CarterOne-Regular.ttf'); 
+      }
+
+      .Amaranth{
+        font-family: Amaranth;
       }
