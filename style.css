@@ -84,8 +84,8 @@ html,
       .flex-grid {
         display: flex;
         font-size: 125%;
-        max-width: 58vh;
-        margin: 0 auto;
+        max-width: 50vh;
+        margin: 10 auto;
         flex-direction: row;
         justify-content: space-between;
 
